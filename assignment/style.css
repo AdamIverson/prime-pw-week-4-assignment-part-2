@@ -1,8 +1,16 @@
 header {
 background-color: coral;
+text-align: center;
 }
 
 h2 {
   background-color: pink;
   color: red;
+  text-align: center;
+}
+
+h3 {
+  background-color: skyblue;
+  text-align: center;
+  color: purple;
 }
