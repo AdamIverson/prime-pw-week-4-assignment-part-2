@@ -1,10 +1,11 @@
 body {
-  background-color: #63DD44;
+background-image: radial-gradient(#3b3a30, #69DD55, #BBDDFF);
+  /*background-color: #69DD55;*/
 }
 
 header {
   font-family: Arial, Helvetica, sans-serif;
-  color: #eaece5;
+  color: #BBDDFF;
   background-color: #3b3a30;
   text-align: center;
   border-radius: 5000px 2550px 400px 50px;
@@ -13,21 +14,21 @@ header {
 h2 {
   font-family: Verdana, Helvetica, serif;
   background-color: #c98000;
-  color: #eaece5;
+  color: #BBDDFF;
   text-align: center;
   border-radius: 5000px 2550px 400px 50px;
 }
 
 h3 {
   font-family: Verdana, Helvetica, Arial, serif;
-  background-color: #C98000;
+  background-color: #c98000;
   text-align: center;
-  color: #eaece5;
+  color: #BBDDFF;
   border-radius: 400px 50px 5000px 5000px;
 }
 
 .center {
-  border: 5px dotted red;
+  border: 5px double red;
   border-radius: 15px 150px;
   display: block;
   margin-left: auto;
