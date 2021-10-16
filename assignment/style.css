@@ -1,37 +1,47 @@
 body {
-background-image: radial-gradient(#3b3a30, #69DD55, #BBDDFF);
+background-image: radial-gradient(#5a6e1c, #2A4501, #502D02);
+border-radius: 5000px 2550px 400px 50px;
   /*background-color: #69DD55;*/
 }
 
 header {
+  background-image: radial-gradient(#9E8E34, #2A4501);
   font-family: Arial, Helvetica, sans-serif;
-  color: #BBDDFF;
-  background-color: #3b3a30;
+  /*color: #9C0701*/
+  text-shadow: 2px 2px 5px #9C0701;
+  /*background-color: #3b3a30;*/
   text-align: center;
   border-radius: 5000px 2550px 400px 50px;
 }
 
 h2 {
+  background-image: radial-gradient(#9E8E34, #2A4501);
   font-family: Verdana, Helvetica, serif;
-  background-color: #c98000;
-  color: #BBDDFF;
+  text-shadow: 2px 2px 5px #9C0701;
+  /*color: #9C0701;*/
   text-align: center;
   border-radius: 5000px 2550px 400px 50px;
 }
 
 h3 {
-  font-family: Verdana, Helvetica, Arial, serif;
-  background-color: #c98000;
+  background-image: radial-gradient(#9E8E34, #2A4501);
+  font-family: Verdana, Helvetica, serif;
+  /*background-color: #c98000;*/
   text-align: center;
-  color: #BBDDFF;
+  /*color: #9C0701;*/
+  text-shadow: 2px 2px 5px #9C0701;
   border-radius: 400px 50px 5000px 5000px;
 }
 
 .center {
-  border: 5px double red;
+  border: 5px double #B31B1B;
   border-radius: 15px 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+/*I suspect that this color scheme would be ineffective to someone with
+color blindness, but would it be unreadable or just a much less dynamic
+visual? This, I do not know.*/
